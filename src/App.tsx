@@ -1,7 +1,7 @@
 import { useState } from "react";
 import "./App.css";
-import StartScreen from "./components/StartScreen";
-import Menu from "./components/Menu";
+import StartScreen from "./pages/StartScreen";
+import Menu from "./pages/Menu";
 
 function App() {
   const [count, setCount] = useState(0);

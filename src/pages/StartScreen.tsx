@@ -1,4 +1,5 @@
-import "./StartScreen.css";
+import "../components/StartScreen.css";
+import "../components/GlitchEffect.css";
 import { useState, useEffect } from "react";
 
 function StartScreen() {
@@ -25,14 +26,12 @@ function StartScreen() {
   }, []);
 
   return (
-    <div className="ContainerOfAll">
-      <div className="LoadingScreenContainer">
-        <p className="text">{text}</p>
+    <div className="ContainerOfAll ">
+      <div className="LoadingScreenContainer glitchSquares">
+        <p className="glitchText">{text}</p>
       </div>
-      <div className="MessageContainer">
-        <p className="text" id="helpMessage">
-          Press ENTER to continue
-        </p>
+      <div className="MessageContainer ">
+        <p className="glitchText">Press ENTER to continue</p>
       </div>
     </div>
   );
