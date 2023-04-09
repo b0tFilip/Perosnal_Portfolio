@@ -25,12 +25,16 @@ function StartScreen() {
   }, []);
 
   return (
-    <>
+    <div className="ContainerOfAll">
       <div className="LoadingScreenContainer">
         <p className="text">{text}</p>
       </div>
-      <div className="MessageContainer">Press ENTER to continue</div>
-    </>
+      <div className="MessageContainer">
+        <p className="text" id="helpMessage">
+          Press ENTER to continue
+        </p>
+      </div>
+    </div>
   );
 }
 

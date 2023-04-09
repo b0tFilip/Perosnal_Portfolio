@@ -1,8 +1,15 @@
 @import url("https://fonts.googleapis.com/css2?family=VT323&display=swap");
 
+.ContainerOfAll {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 .LoadingScreenContainer {
   width: 100vw;
-  height: 70vh;
+  height: 100vh;
   background-color: rgb(15, 15, 15);
   display: flex;
   justify-content: start;
@@ -126,7 +133,7 @@
 }
 
 .MessageContainer {
-  width: 100vw;
+  width: 50vw;
   height: 30vh;
   background-color: rgb(15, 15, 15);
   animation: textShadow 4s infinite;
@@ -137,4 +144,45 @@
   font-family: "VT323";
   font-size: 50px;
   color: #1fc742;
+  animation: textShadow 4s infinite;
+  margin-top: -40vh;
+}
+
+#helpMessage {
+  animation: rotation 8s infinite;
+}
+@keyframes rotation {
+  0% {
+    transform: rotate(0deg);
+  }
+  10% {
+    transform: rotate(1deg);
+  }
+  20% {
+    transform: rotate(2deg);
+  }
+  30% {
+    transform: rotate(3deg);
+  }
+  40% {
+    transform: rotate(4deg);
+  }
+  50% {
+    transform: rotate(5deg);
+  }
+  60% {
+    transform: rotate(4deg);
+  }
+  70% {
+    transform: rotate(3deg);
+  }
+  80% {
+    transform: rotate(2deg);
+  }
+  90% {
+    transform: rotate(1deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
 }
