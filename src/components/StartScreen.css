@@ -149,7 +149,7 @@
 }
 
 #helpMessage {
-  animation: rotation 8s infinite;
+  animation: rotation 3s infinite;
 }
 @keyframes rotation {
   0% {

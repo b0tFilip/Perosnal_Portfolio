@@ -1,12 +1,14 @@
 import { useState } from "react";
 import "./App.css";
-import StartScreem from "./components/StartScreem";
+import StartScreen from "./components/StartScreen";
+import Menu from "./components/Menu";
+
 function App() {
   const [count, setCount] = useState(0);
 
   return (
     <div className="App">
-      <StartScreem />
+      <StartScreen />
     </div>
   );
 }

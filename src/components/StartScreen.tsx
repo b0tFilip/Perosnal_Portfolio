@@ -1,4 +1,4 @@
-import "./StartScreem.css";
+import "./StartScreen.css";
 import { useState, useEffect } from "react";
 
 function StartScreen() {
